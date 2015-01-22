@@ -138,6 +138,7 @@ $(document).ready(function() {
       $('#nav_btn').click();
       $('.aside3').scrollTop(0);
       contentEffects();
+      nav_link_patch();
     }
   });
   $('body').on('click', '.show-commend', function(){
@@ -156,5 +157,4 @@ $(document).ready(function() {
   contentEffects();
   aside_click_patch();
   aside2_link_patch();
-  nav_link_patch();
 });
