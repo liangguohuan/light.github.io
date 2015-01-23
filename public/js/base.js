@@ -99,6 +99,7 @@ function contentEffects(){
   }else{
     $('#content_btn').hide();
   }
+  nav_link_patch();
 }
 
 $(document).ready(function() {
@@ -138,7 +139,6 @@ $(document).ready(function() {
       $('#nav_btn').click();
       $('.aside3').scrollTop(0);
       contentEffects();
-      nav_link_patch();
     }
   });
   $('body').on('click', '.show-commend', function(){
